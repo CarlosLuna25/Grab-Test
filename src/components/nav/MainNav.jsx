@@ -5,7 +5,7 @@ import icongrab from '../../assets/img/icongrab.png'
 import Timer from './TimerComponent'
 export function MainNav(){
     const startTime = new Date();
-  const endTime = new Date('Dec 31, 2023 00:00:00'); // 30 minutos
+  const endTime = new Date('Nov 22, 2023 00:00:00'); // 30 minutos
 return(
     <>
      {/* aside social menu */}

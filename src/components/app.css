@@ -113,6 +113,9 @@ nav{
     border: none;
     border-radius: 12px;
 }
+.bodyNavButton:hover{
+    cursor: pointer;
+}
 .footerNav{
     display: flex;
     flex-direction: row;
@@ -209,6 +212,9 @@ nav{
     border: none;
     padding-top: 12px;
     padding-bottom: 12px;
+}
+.btnCard:hover{
+    cursor: pointer;
 }
 .cardImage{
     object-fit: cover;
@@ -341,6 +347,9 @@ nav{
     padding-right: 46px;
     font-weight: bold;
 }
+.btnStandar:hover{
+    cursor: pointer;
+}
 .fiveCard{
     margin-top: 5%;
     display: flex;
@@ -417,7 +426,7 @@ textarea.inputFormBasic{
     justify-content: center;
     align-items: center;
     padding: 5%;
-    background-color: green;
+    background-color: #1D794A;
     margin-top: 15%;
 }
 .sevenCard .CarouselImg{
@@ -455,6 +464,9 @@ textarea.inputFormBasic{
 }
 .menuLateral .socialIcon{
     color: white;
+}
+.menuLateral .socialIcon:hover{
+    cursor: pointer;
 }
 footer {
     display: flex; 
